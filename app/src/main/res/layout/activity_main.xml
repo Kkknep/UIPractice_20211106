@@ -69,6 +69,7 @@
             android:text="여성"/>
 
         <RadioButton
+            android:enabled="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="공개 안함"/>
@@ -82,11 +83,13 @@
         android:text="이용약관에 동의 합니다"/>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보 제공에 동의합니다"/>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
